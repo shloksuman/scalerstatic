@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin : 0; /* this removes the gap */
+}
+
+/* added width to  */
+.sidebar {
+    background-color: red;
+    width: 434px;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 7px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: aqua;
+    width: 83vw;
+}
+
+/* 4 created two div box to use display flex */
+/* flex mein horizontally aagye div boxes */
+.container {
+    display: flex; /* flex mein horizontally aagye div boxes */
+}
+
+.infocontainer {
+    background-color: magenta;
+    height: 75vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 15px ;
+}
+
+.btn {
+    padding : 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 13px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img {
+    height : 78vh ;
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    padding: 3px;
+    margin: 6px 0 0 0;
+    border-radius: 5px;
+    width: 26vw;
+
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Fira Sans' , sans-serif;
+}
+
+.blogcontainer h1 {
+    font-family: 'Fira Sans' , sans-serif;
+    margin: 23px;
+}
+
+.blogitem p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro h2 {
+    font-family: 'Fira Sans' , sans-serif;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 8px;
+    background-color: rgb(43, 43, 140);
+    border : 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: burlywood;
+}
+
+.fifty {
+    width: 125px;
+    background-color: maroon;
+}
+
+.tfive {
+    width: 75px;
+    background-color: turquoise;
+}
